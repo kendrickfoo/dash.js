@@ -544,11 +544,11 @@ function PlaybackController() {
     }
     
     //To save some CSV
-    //function savegtainfo()
-    //{
-    //    var _0xcadfxf8= new Blob(GTAinfo, {type:_0x9e03[140],encoding:_0x9e03[140]});
-    //    saveAs(_0xcadfxf8,ALGO+ _0x9e03[141]+ username+ _0x9e03[141]+ _0x9e03[151]+ _0x9e03[141]+ CT+ _0x9e03[143])
-    //}
+    function savegtainfo()
+    {
+        var _0xcadfxf8= new Blob(GTAinfo, {type:_0x9e03[140],encoding:_0x9e03[140]});
+        saveAs(_0xcadfxf8,ALGO+ _0x9e03[141]+ username+ _0x9e03[141]+ _0x9e03[151]+ _0x9e03[141]+ CT+ _0x9e03[143])
+    }
 
     // Handle DASH PLAYBACK_ENDED event
     function onPlaybackEnded(e) {
